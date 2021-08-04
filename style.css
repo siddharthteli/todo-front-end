@@ -3,8 +3,9 @@
 }
 .grid-flow {
   border: 5px solid rgb(155, 172, 155);
-  width: 70%;
-  height: 90%;
+  width: 200px;
+
+  height: 280px;
   margin-left: 90px;
   margin-top: 5%;
   text-align: center;
@@ -12,6 +13,19 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 80%;
+}
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #999;
+}
+
+li {
+  float: left;
+
+  padding: 14px 16px;
 }
