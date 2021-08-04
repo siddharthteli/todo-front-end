@@ -13,10 +13,10 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: 80%;
 }
-ul {
+header ul {
   list-style-type: none;
   margin: 5px;
   padding: 5px;
@@ -24,8 +24,15 @@ ul {
   background-color: #999;
 }
 
-li {
-  float: left;
+header ul li {
+  float: right;
 
   padding: 14px 16px;
+  margin-left: 30px;
+}
+footer {
+  background: rgb(201, 132, 132);
+  height: 30px;
+  text-align: center;
+  margin: 50px;
 }
