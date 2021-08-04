@@ -1,11 +1,23 @@
-* {
-  box-sizing: border-box;
+.class_center {
   text-align: center;
 }
 .grid-flow {
-  width: 25%;
-  border: 15px solid green;
-  height: 25%;
-  margin: 20px;
-  align-items: flex-end;
+  border: 5px solid green;
+  width: fit-content;
+  margin-left: 90px;
+  margin-top: 5%;
+
+  text-align: center;
+}
+.grid-flow-left {
+  float: left;
+}
+
+.grid-flow-right {
+  float: right;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
