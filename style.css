@@ -1,39 +1,47 @@
 .class_center {
   text-align: center;
 }
+
 .grid-flow {
   border: 5px groove rgb(155, 172, 155);
   width: 200px;
-
   height: 280px;
   margin-left: 90px;
   margin-top: 5%;
-  text-align: center;
+  text-align: start;
+  border-radius: 15px;
+  background: rgb(41, 144, 185);
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 80%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 70%;
 }
+
 header ul {
   list-style-type: None;
-  margin: 5px;
-  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
   overflow: hidden;
-  background-color: #999;
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
 }
 
 header ul li {
   float: right;
-  border: 2px solid rgb(6, 68, 6);
-  padding: 14px 16px;
+
+  border: 2px solid rgb(241, 241, 241);
+  padding: 5px 8px;
   margin-left: 30px;
 }
 a {
   text-decoration: None;
+  color: aliceblue;
 }
 footer {
+  border-radius: 5px;
   background: rgb(201, 132, 132);
   height: 30px;
   text-align: center;
