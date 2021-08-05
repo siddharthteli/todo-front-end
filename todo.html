@@ -1,10 +1,12 @@
 <html>
-    
+  
     <head class=".window-margin">
         <link rel="stylesheet" href="style.css">
     </head>
     <header>
         <ul>
+            <li><a id="problem" onclick="helper()">Problem</a></li>
+            <li><a href="https://github.com/Loaki07">Help</a></li>
             <li><a href="#">Active-Tasks</a></li>
             <li><a href="#">Completed-Tasks</a></li>
         </ul>
@@ -13,7 +15,7 @@
         <h1 class="class_center">Todo-List</h1><br><br>
         <div class="wrapper .window-margin">
             <div class="grid-flow">
-                <p>Siddharths Todo List:-</p>
+                <p><strong>Siddharths Todo List:-</strong></p>
                 <ol>
                     <li>Wake me up</li>
                     <li>Remind me to </li>
@@ -21,7 +23,7 @@
                 </ol>
             </div>
             <div class=" grid-flow">
-                <p>Loakesh's Todo List:-</p>
+                <p><strong>Loakesh's Todo List:-</strong></p>
                 <ol>
                     <li>Remind me to start dark mode</li>
                     <li>Lenovo is a chinese company</li>
@@ -29,25 +31,40 @@
                 </ol>
             </div>
             <div class=" grid-flow">
-                <p>Varuns Todo List:-</p>
+                <p><strong>Varuns Todo List:-</strong></p>
                 <ol>
                     <li>Remind me for Ml call</li>
                     <li>Remind me for BC (Blockchain) call</li>
                 </ol>
             </div>
             <div class=" grid-flow">
-                <p>Varuns Todo List:-</p>
+                <p><strong>Amit Shah Todo list:-</strong></p>
                 <ol>
-                    <li>Remind me for Ml call</li>
-                    <li>Remind me for BC (Blockchain) call</li>
+                    <li>Remind me to buy MLA</li>
+                    <li>TO buy judge</li>
                 </ol>
             </div>
-            
-
+            <div class=" grid-flow">
+                <p><strong>Modi Ji Todo List:-</strong></p>
+                <ol>
+                    <li>Remind me how gareeb i am </li>
+                    <li>Remind me to blame nehru </li>
+                </ol>
+            </div>
+            <div class=" grid-flow">
+                <p><strong> Kejriwal TOdo List:-</strong></p>
+                <ol>
+                    <li>Ya sab mile huwe hai ji</li>
+                    <li>Remind me to Sing a song</li>
+                </ol>
+            </div>
         </div>
     </body>
     <script>
-
+       function helper()
+      {
+        document.getElementById("problem").innerHTML = "You Are Anti-National";
+      }
     </script>
     <br>
     <br><br>

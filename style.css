@@ -1,16 +1,25 @@
 .class_center {
   text-align: center;
+  border-style: solid;
+  background-color: rgb(94, 58, 58);
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 5px;
+}
+body h1 {
+  color: wheat;
 }
 
 .grid-flow {
-  border: 5px groove rgb(155, 172, 155);
   width: 200px;
   height: 280px;
   margin-left: 90px;
   margin-top: 5%;
   text-align: start;
-  border-radius: 15px;
+  border-radius: 3px;
+  border: 1px solid #bacdd8;
   background: rgb(41, 144, 185);
+  padding: 5px;
 }
 
 .wrapper {
@@ -32,13 +41,16 @@ header ul {
 header ul li {
   float: right;
 
-  border: 2px solid rgb(241, 241, 241);
+  border: 2px solid wheat;
   padding: 5px 8px;
   margin-left: 30px;
 }
 a {
   text-decoration: None;
-  color: aliceblue;
+  color: wheat;
+}
+a:hover {
+  color: rgb(97, 93, 84);
 }
 footer {
   border-radius: 5px;
