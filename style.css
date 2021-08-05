@@ -2,7 +2,7 @@
   text-align: center;
 }
 .grid-flow {
-  border: 5px solid rgb(155, 172, 155);
+  border: 5px groove rgb(155, 172, 155);
   width: 200px;
 
   height: 280px;
@@ -17,7 +17,7 @@
   grid-template-rows: 80%;
 }
 header ul {
-  list-style-type: none;
+  list-style-type: None;
   margin: 5px;
   padding: 5px;
   overflow: hidden;
@@ -26,9 +26,12 @@ header ul {
 
 header ul li {
   float: right;
-
+  border: 2px solid rgb(6, 68, 6);
   padding: 14px 16px;
   margin-left: 30px;
+}
+a {
+  text-decoration: None;
 }
 footer {
   background: rgb(201, 132, 132);
